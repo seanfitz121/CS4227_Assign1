@@ -1,4 +1,4 @@
-package fowlermovierental;
+package main.java.movierental;
 
 public class ContextObject {
     Movie movie;

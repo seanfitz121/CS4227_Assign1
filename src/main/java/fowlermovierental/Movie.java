@@ -1,4 +1,4 @@
-package movierental;
+package main.java.movierental;
 
 public class Movie {
 

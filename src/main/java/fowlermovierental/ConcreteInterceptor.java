@@ -1,8 +1,8 @@
-package fowlermovierental;
+package main.java.movierental;
 
 public class ConcreteInterceptor implements Interceptor {
     public void intercept(ContextObject contextObj){
-        System.out.println(contextObj.getPriceCode());
-        System.out.println(contextObject.getMovieTitle());
+        System.out.println(contextObj.getMoviePrice());
+        System.out.println(contextObj.getMovieTitle());
     }
 }

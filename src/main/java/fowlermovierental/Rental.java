@@ -1,4 +1,4 @@
-package movierental;
+package main.java.movierental;
 
 /**
  * The rental class represents a customer renting a movie.
