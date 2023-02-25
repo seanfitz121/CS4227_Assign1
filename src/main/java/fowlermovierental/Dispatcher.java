@@ -9,9 +9,7 @@ public class Dispatcher {
         listInter.add(inter);
     }
     public void dispatch(ContextObject contextObj){
-        Iterator iterate = listInter.iterator();
-        while (iterate.hasNext()){
-            Interceptor currentInter = (Interceptor) iterate.next();
+        for (Interceptor currentInter : listInter) {
             currentInter.intercept(contextObj);
         }
     }
